@@ -15,14 +15,14 @@ module.exports = {
         src: 'img/logo.svg',
       },
       items: [
+        // {
+        //   to: 'docs/',
+        //   activeBasePath: 'docs',
+        //   label: 'Docs',
+        //   position: 'left',
+        // },
         {
-          to: 'docs/',
-          activeBasePath: 'docs',
-          label: 'Docs',
-          position: 'left',
-        },
-        {
-          to: 'blog',
+          to: '/',
           label: 'Blog',
           position: 'left'
         },
@@ -94,13 +94,13 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          // editUrl: 'https://github.com/facebook/docusaurus/edit/master/website/',
         },
         blog: {
           showReadingTime: true,
-          // Please change this to your repo.
-          // editUrl: 'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+
+          // Make blog the default page https://v2.docusaurus.io/docs/blog#blog-only-mode
+          path: './blog',
+          routeBasePath: '/', // Set this value to '/'.
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
