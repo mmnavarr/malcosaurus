@@ -41,7 +41,7 @@ My true passion is on the backend. It's where the hard shit happens. It's where 
 Next on the list is Rust/Clojure.. soon!
 
 #### Databases
-I started my career with SQL dbs and have only professionally worked with SQL dbs. PostgresDB is my personal favorite. Professionally, I've been work with SQL Server the past few.
+I started my career with SQL dbs and have only professionally worked with SQL dbs. PostgreSQL is my personal favorite. Professionally, I've been work with SQL Server the past few.
 
 I've worked with DynamoDB and Firebase's Firestore but haven't worked too heavily with non-relational databases.
 
