@@ -1,12 +1,13 @@
 module.exports = {
-  title: "Malcolm's Title Goes Here!",
-  tagline: 'Taglines are overrated',
+  title: 'Blog',
+  tagline: '',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   favicon: 'img/favicon.ico',
   organizationName: 'mmnavarr', // Usually your GitHub org/user name.
   projectName: 'malcosaurus', // Usually your repo name.
+  plugins: ['@docusaurus/plugin-google-gtag'],
   themeConfig: {
     navbar: {
       title: 'Malcolm Navarro',
@@ -38,54 +39,10 @@ module.exports = {
         }
       ],
     },
-    footer: {
-      style: 'dark',
-      links: [
-        {
-          title: 'Docs',
-          items: [
-            {
-              label: 'Style Guide',
-              to: 'docs/',
-            },
-            {
-              label: 'Second Doc',
-              to: 'docs/doc2/',
-            },
-          ],
-        },
-        {
-          title: 'Community',
-          items: [
-            {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
-            },
-          ],
-        },
-        {
-          title: 'More',
-          items: [
-            {
-              label: 'Blog',
-              to: 'blog',
-            },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
-            },
-          ],
-        },
-      ],
-      copyright: `${new Date().getFullYear()}`,
+    gtag: {
+      trackingID: 'UA-178851346-1',
+      // Optional fields.
+      anonymizeIP: true, // Should IPs be anonymized?
     },
   },
   presets: [
@@ -97,6 +54,7 @@ module.exports = {
         },
         blog: {
           showReadingTime: true,
+          blogDescription: 'A docusaurus powered blog!',
 
           // Make blog the default page https://v2.docusaurus.io/docs/blog#blog-only-mode
           path: './blog',
