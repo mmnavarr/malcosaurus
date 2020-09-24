@@ -3,11 +3,10 @@ module.exports = {
   tagline: '',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
-  onBrokenLinks: 'throw',
+  // onBrokenLinks: 'throw',
   favicon: 'img/favicon.ico',
   organizationName: 'mmnavarr', // Usually your GitHub org/user name.
   projectName: 'malcosaurus', // Usually your repo name.
-  plugins: ['@docusaurus/plugin-google-gtag'],
   themeConfig: {
     navbar: {
       title: 'Malcolm Navarro',
@@ -38,11 +37,6 @@ module.exports = {
           position: 'right'
         }
       ],
-    },
-    gtag: {
-      trackingID: 'UA-178851346-1',
-      // Optional fields.
-      anonymizeIP: true, // Should IPs be anonymized?
     },
   },
   presets: [
