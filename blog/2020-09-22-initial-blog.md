@@ -18,14 +18,14 @@ I'm 27, I was born in Brazil and I currently live in Texas with my girlfriend an
 
 From a technology perspective, I consider myself a Fullstack Engineer and really do appreciate the different challenges across the stack.
 
-#### On the Front End
+### On the Front End
 I've been professionally working with ReactJS and the ecosystem that follows it for the past several years. Although a little clunky, I do find Redux/Redux-Saga to be useful tools on the FE belt. I'm really excited about how hooks are changing the way composable logic is written/used and hope to share some of the best ones I've written so far.
 
 I find CSS to be the easiest yet most frustrating part of the FE job but do think Styled-components/Emotion have made that a far better experience as a developer.
 
 In terms of JavaScript.. I've been slowly gravitating towards TypeScript for everything. As we all know, JavaScript has its quirks. More on this soon.
 
-#### On the Back End
+### On the Back End
 For the first couple years when I started my Software Engineer career, I worked almost exclusively with Java and the Spring framework. I still really enjoy Java and keep up with the language but as of late I'm the most comfortable with .NET/C# for APIs on an enterprise level.
 
 Things that interest me:
@@ -40,7 +40,7 @@ My true passion is on the backend. It's where the hard shit happens. It's where 
 
 Next on the list is Rust/Clojure.. soon!
 
-#### Databases
+### Databases
 I started my career with SQL dbs and have only professionally worked with SQL dbs. PostgreSQL is my personal favorite. Professionally, I've been work with SQL Server the past few.
 
 I've worked with DynamoDB and Firebase's Firestore but haven't worked too heavily with non-relational databases.
@@ -49,8 +49,8 @@ The databases on my list to do a side-project with:
 - Neo4j
 - CockroachDB
 
-#### DevOps
+### DevOps
 Don't even get me started. This is a black hole I only enter when needed. Kudos to Firebase/Heroku for simplifying things. Azure/AWS are great too. I'm fairly familiar with Kubernetes but there's always more to learn there.
 
-### Talk Soon Stranger
+#### Talk Soon
 So why does any of that matter? It probably doesn't. This is just the first blog post where I wanted to briefly introduce myself and talk about some of the technologies that I work with and have experience in while also expressing my opinions on them. Like you all, I have plenty to learn still. I hope that through these blogs I can stay more engaged and set the foundation for what's to come.
