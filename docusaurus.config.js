@@ -8,6 +8,9 @@ module.exports = {
   organizationName: 'mmnavarr', // Usually your GitHub org/user name.
   projectName: 'malcosaurus', // Usually your repo name.
   themeConfig: {
+    colorMode: {
+      defaultMode: 'dark', // "light" | "dark"
+    },
     navbar: {
       title: 'Malcolm Navarro',
       logo: {
