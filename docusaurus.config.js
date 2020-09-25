@@ -1,7 +1,7 @@
 module.exports = {
   title: 'Blog',
   tagline: '',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://malcosaurus.com',
   baseUrl: '/',
   // onBrokenLinks: 'throw',
   favicon: 'img/favicon.ico',
