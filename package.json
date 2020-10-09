@@ -1,13 +1,13 @@
 {
   "name": "malcosaurus",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": true,
   "scripts": {
+    "deploy": "yarn build && firebase deploy",
     "docusaurus": "docusaurus",
     "start": "docusaurus start",
     "build": "docusaurus build",
     "swizzle": "docusaurus swizzle",
-    "deploy": "docusaurus deploy",
     "serve": "docusaurus serve"
   },
   "dependencies": {
