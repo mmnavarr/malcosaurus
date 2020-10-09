@@ -11,6 +11,7 @@ module.exports = {
     colorMode: {
       defaultMode: 'dark', // "light" | "dark"
     },
+    sidebarCollapsible: false, // Remove when there are a lot of docs
     navbar: {
       title: 'Malcolm Navarro',
       logo: {
