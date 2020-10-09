@@ -1,6 +1,6 @@
 module.exports = {
-  someSidebar: {
-    Docusaurus: ['doc1', 'doc2', 'doc3'],
-    Features: ['mdx'],
+  docs: {
+    'Cache': ['caching', 'redis_vs_memcached'],
+    'Data Stores': ['cap_theorem'],
   },
 };

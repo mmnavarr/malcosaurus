@@ -1,5 +1,5 @@
 module.exports = {
-  title: 'Blog',
+  title: 'Malcosaurus',
   tagline: '',
   url: 'https://malcosaurus.com',
   baseUrl: '/',
@@ -18,16 +18,15 @@ module.exports = {
         src: 'img/logo.svg',
       },
       items: [
-        // {
-        //   to: 'docs/',
-        //   activeBasePath: 'docs',
-        //   label: 'Docs',
-        //   position: 'left',
-        // },
+        {
+          to: 'docs',
+          position: 'left',
+          label: 'Docs',
+        },
         {
           to: '/',
+          position: 'left',
           label: 'Blog',
-          position: 'left'
         },
         {
           href: 'https://github.com/mmnavarr/',
@@ -49,9 +48,11 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
         },
+        pages: false,
         blog: {
           showReadingTime: true,
           blogDescription: 'A docusaurus powered blog!',
+          postsPerPage: 5,
 
           // Make blog the default page https://v2.docusaurus.io/docs/blog#blog-only-mode
           path: './blog',
