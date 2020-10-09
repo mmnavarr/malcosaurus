@@ -26,7 +26,25 @@ Write consistency is very important for transactions and engineers but require l
 
 ![](../static/img/locking.png)
 
-## BASE Consistency Model:
-* Basic Availability: The database works most of the time
-* Soft-state: The nodes don’t have to be constantly consistent, data variation can occur across nodes
-* Eventual consistency: Stores exhibit consistency at some later point
+## BASE Consistency Model
+For many domains and use cases, ACID transactions are far more pessimistic (i.e., they’re more worried about data safety) than the domain actually requires.
+
+In the NoSQL database world, ACID transactions are less fashionable as some databases have loosened the requirements for immediate consistency, data freshness and accuracy in order to gain other benefits, like scale and resilience.
+
+(Notably, the .NET-based RavenDB has bucked the trend among aggregate stores in supporting ACID transactions.)
+
+Here’s how the BASE acronym breaks down:
+
+### BAsic Availability
+The database works most of the time.
+### Soft-state
+Stores don’t have to be write-consistent, nor do different replicas have to be mutually consistent all the time.
+### Eventual consistency
+Stores exhibit consistency at some later point
+
+
+As far as BASE properties go, they are far looser than guarantees found in ACID. You cannot directly map & compare CAP vs. BASE since they technically concern themselves with different aspects of data store. The BASE data stores are more concerned with how available the DB is because that is a huge consideration at scale. The trade off is that it doesn't guarantee consistency of that replicated data at write time and in some cases read time.
+
+Overall, the BASE consistency model provides a less strict assurance than ACID, saying that data will consistent in some near point in the future, but now has the ability to scale and be more available.
+
+The BASE consistency model is predominately used in wide-column, key-value and document data stores. (See SQL vs. NoSQL)
