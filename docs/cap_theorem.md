@@ -3,11 +3,11 @@ id: cap_theorem
 title: CAP Theorem
 ---
 
-**CAP theorem** states that it is impossible for a distributed software system to simultaneously provide more than two out of three of the following guarantees (CAP): 
+**CAP theorem** states that it is impossible for a distributed software system to simultaneously provide more than two out of three of the following guarantees (CAP):
 
 * **C**onsistency
 * **A**vailability
-* **P**artition tolerance. 
+* **P**artition tolerance.
 
 When we design a distributed system, trading off among CAP is almost the first thing we want to consider. CAP theorem says while designing a distributed system we can pick only two of the following three options:
 
