@@ -22,7 +22,7 @@ module.exports = {
         {
           to: 'docs',
           position: 'left',
-          label: 'Docs',
+          label: 'Notes',
         },
         {
           to: '/',
