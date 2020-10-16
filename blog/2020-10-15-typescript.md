@@ -3,7 +3,7 @@ title: Should I Be Using TypeScript?
 author: Malcolm Navarro
 # author_title: Maintainer of Docusaurus
 author_url: https://github.com/mmnavarr
-author_image_url: /static/img/typescript_logo.jpg
+author_image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/1024px-Typescript_logo_2020.svg.png
 tags: [reactjs, typescript, javascript, types]
 ---
 
