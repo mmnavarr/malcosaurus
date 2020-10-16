@@ -10,7 +10,7 @@ tags: [non-technical]
 ## Hello!
 
 My name is Malcolm Navarro and this is my personal website.
-I'm 27 years old, I was born in Brazil and I currently live in Texas with my girlfriend and 2 dogs. Over the next several weeks I'm hoping to share a few blog posts with you spanning across different Software Engineer topics. Eventually, I aim to share some coding tutorials and notes that I feel could be beneficial to engineers of all levels.
+I'm 27 years old, I was born in Brazil and I currently live in Austin, Texas with my girlfriend and 2 dogs. Over the next several weeks I'm hoping to share a few blog posts with you spanning across different Software Engineer topics. Eventually, I aim to share some coding tutorials and notes that I feel could be beneficial to engineers of all levels.
 
 <!--truncate-->
 
