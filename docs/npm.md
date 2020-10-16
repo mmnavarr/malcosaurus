@@ -1,6 +1,6 @@
 ---
 id: npm_cheatsheet
-title: NPM
+title: NPM Cheatsheet
 ---
 
 This cheatsheet includes `npm` commands and other useful shortcuts & flags that can be used to perform day to day actions.
