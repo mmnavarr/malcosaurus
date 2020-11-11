@@ -22,6 +22,39 @@ $ git checkout -b <branch-name> <sha1-of-commit>
 ```
 If you're on a modern version of Git you should be able to use the short SHA1
 
+### Add Existing Project To Repository
+Initialize the local directory as a Git repository.
+```
+$ git init
+```
+
+Add the files in your new local repository. This stages them for the first commit.
+```
+$ git add .
+or
+$ git add --all
+```
+
+Commit the files that you've staged in your local repository.
+```
+$ git commit -m 'First commit'
+```
+
+Copy remote repository URL field from your GitHub repository and add the URL for the remote repository where your local repostory will be pushed.
+```
+$ git remote add origin <remote repository URL>
+```
+
+Sets the new remote:
+```
+$ git remote -v
+```
+
+Push the changes in your local repository to GitHub.
+```
+$ git push origin master
+```
+
 
 ### Reverting Commits
 `$ git reset —-(soft|hard) HEAD~{NUM_COMMITS_BACK}`
