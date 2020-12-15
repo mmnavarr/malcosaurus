@@ -19,7 +19,7 @@ Both are supported in all modern browsers so you can use it today without an iss
 ## Storage Sizes (Desktop)
 These are the common browsers and the available storage space for each:
 | Browser   | Local Storage   | Session Storage   |
-|---------  |---------------  |-----------------  |
+| --------- | --------------- | ----------------- |
 | Chrome    | 10MB            | 10MB              |
 | Safari    | 5MB             | Unlimited         |
 | Firefox   | 10MB            | 10MB              |
