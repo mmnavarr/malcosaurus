@@ -25,9 +25,7 @@ $ yarn build
 This command generates static content into the `build` directory and can be served using any static contents hosting service.
 
 ### Deployment
-
+The following command builds then deploys90 to firebase.
 ```
-$ GIT_USER=<Your GitHub username> USE_SSH=true yarn deploy
+$ yarn deploy
 ```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
