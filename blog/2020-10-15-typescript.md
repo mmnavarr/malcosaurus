@@ -1,10 +1,10 @@
 ---
-title: Should I Be Using TypeScript?
+title: Transition To TypeScript
 author: Malcolm Navarro
 # author_title: Maintainer of Docusaurus
 author_url: https://github.com/mmnavarr
 author_image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/1024px-Typescript_logo_2020.svg.png
-tags: [reactjs, typescript, javascript, types]
+tags: [reactjs, typescript, javascript, types, programming]
 ---
 
 This was the question I started asking myself about 6 months ago. JavaScript works - pretty well in fact. For whatever reason though, it still felt like something was missing.
@@ -75,3 +75,6 @@ If your backend is written C#/.NET Core or is part of the .NET family, then you'
 
 
 My experiences are my experiences and they were pleasant. I have read the counterarguments but to each their own. I would love to hear from someone who did not have a great experience with TS either on the front or backend or someone who found other ways to extract the benefits of TS in their codebase.
+
+### Moral
+Because you decide to not use something, doesn't make it a wrong move. It simply means it was not the correct decision *at that time*. Revisiting and reevaluation past decisions in the future can potentially lead to a positive outcomes.

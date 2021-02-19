@@ -3,7 +3,7 @@ title: git commit -m "Initial Blog"
 author: Malcolm Navarro
 # author_title: Malcolm Navarro
 author_url: https://github.com/mmnavarr
-author_image_url: https://media-exp1.licdn.com/dms/image/C4E03AQHJ1Da5YIl0Pw/profile-displayphoto-shrink_400_400/0?e=1606348800&v=beta&t=961soqVyLZVCQc7EfB4SM9o2dBZ9VljSP5FMyGDJT-0
+author_image_url: ../static/img/me.jpeg
 tags: [non-technical]
 ---
 
