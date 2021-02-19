@@ -6,6 +6,7 @@ module.exports = {
     'Distributed Systems': ['distributed_system_characteristics', 'load_balancing', 'proxies'],
     'Data Stores': ['sql_vs_nosql', 'cap_theorem', 'acid_and_base', 'data_partitioning', 'indexes'],
     'Web': ['session_vs_local_storage'],
-    'Cheatsheets': ['git_cheatsheet', 'npm_cheatsheet', 'curl_cheatsheet'],
+    'Client Server Computing': [ 'load_balancing', 'proxies'],
+    'Cheatsheets': ['git_cheatsheet', 'npm_cheatsheet', 'curl_cheatsheet', 'redis_cheatsheet'],
   },
 };
