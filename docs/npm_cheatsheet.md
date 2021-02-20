@@ -58,6 +58,11 @@ $ npm uninstall <module-name>
 $ npm un <module-name>
 ```
 
+### List Globally Installed Packages
+```
+$ npm ls -g --depth=0
+```
+
 ## What is a package, actually?
 
 a) Folder containing a program described by a `package.json` file
@@ -172,13 +177,9 @@ Execute package from the local node_modules in the command line. (In case you do
 $ npx <module-name>
 ```
 
-Fun fact:
+Fun fact - since npm was originally designed for node packages, the npm start command will automatically run the server.js file hence why you do not need to specify which file/script you want to run.
 
-Since npm was originally designed for node packages, the npm start command will automatically run the server.js file hence why you do not need to specify which file/script you want to run.
-
-##
-
-Easter Eggs
+## Easter Eggs
 
 ```
 $ npm xmas
