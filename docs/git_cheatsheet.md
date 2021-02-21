@@ -79,3 +79,14 @@ To see the branch tree for the current working branch with abbreviated commits, 
 ```
 $ git log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
 ```
+
+### Deleting Branch
+To delete the branch locally
+```
+$ git branch -d <local_branch_name>
+```
+
+To delete the branch remotely
+```
+$ git push origin --delete <remote_branch_name>
+```
