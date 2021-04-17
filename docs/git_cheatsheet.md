@@ -83,10 +83,25 @@ $ git log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %
 ### Deleting Branch
 To delete the branch locally
 ```
-$ git branch -d <local_branch_name>
+$ git branch  -d <local_branch_name>
 ```
 
 To delete the branch remotely
 ```
 $ git push origin --delete <remote_branch_name>
+```
+
+
+### Configuration
+#### Checking Your Settings
+If you want to check your configuration settings, you can use the git config --list command to list all the settings Git can find at that point:
+```
+$ git config --list
+```
+
+#### Identity
+Setting global git config name & email
+```
+$ git config --global user.name "John Doe"
+$ git config --global user.email johndoe@example.com
 ```
