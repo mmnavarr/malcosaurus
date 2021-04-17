@@ -93,15 +93,35 @@ $ git push origin --delete <remote_branch_name>
 
 
 ### Configuration
-#### Checking Your Settings
+##### Checking Your Settings
 If you want to check your configuration settings, you can use the git config --list command to list all the settings Git can find at that point:
 ```
 $ git config --list
 ```
 
-#### Identity
+##### Identity
 Setting global git config name & email
 ```
 $ git config --global user.name "John Doe"
 $ git config --global user.email johndoe@example.com
 ```
+
+##### 2FA Issues
+After enabling Two Factor Authentication (2FA), you may see something like this when attempting to use `git clone`, `git fetch`, `git pull` or `git push`:
+```
+$ git push origin master
+Username for 'https://github.com': <username>
+Password for 'https://your_user_name@github.com': <password>
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/<username>/repo_name.git/
+```
+
+From the [GitHub Help documentation](https://help.github.com/articles/providing-your-2fa-authentication-code/#when-youll-be-asked-for-a-personal-access-token-as-a-password):
+> After 2FA is enabled you will need to enter a personal access token instead of a 2FA code and your GitHub password.
+
+##### How To Fix
+1. Generate a [Personal Access Token](https://github.com/settings/tokens). (Detailed guide on [Creating a personal access token for the command line](https://help.github.com/articles/creating-a-personal-access-token-for-the-command-line/).)
+2. Copy the Personal Access Token.
+3. Re-attempt the command you were trying and use `Personal Access Token` in the place of your password.
+
+
